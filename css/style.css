@@ -1,0 +1,145 @@
+.navbar a{
+    font-size: 13px;
+    color: #666666;
+}
+
+.navbar a:hover{
+    font-size: 13px;
+    color: #666666;
+    text-decoration: underline                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+}
+
+.py-5 {
+    padding-bottom: 1em !important;
+    padding-top: 1em !important;
+
+}
+
+.banerimg{
+    background-image: url(https://www.cisco.com/content/dam/cisco-cdc/site/images/heroes/homepage/homepage-hero-desktop-3200x800-3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: var(--color-white);
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.Rg-btn li a {
+        background:#f8f8f8 !important;
+        padding: 20px 30px;
+        border-radius: 50px;
+        color: var(--color-white);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+   
+
+
+    .Rg-btn li a:hover{
+    color: #292929 !important;
+    text-decoration: none;
+    background-color:rgb(197, 232, 236) !important;
+    border: radius 50px;
+}
+
+.icons{
+
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.iconbox{
+    float: left;
+    padding-left: 25px;
+}
+
+.h2Light{
+    font-weight:400;
+}
+
+.img01{
+    box-sizing: border-box;
+    width: 350px;
+    height: 457px;
+    float: left;
+}
+
+.linkbtn a{
+    text-decoration: none !important;
+}
+
+.linkbtn a:hover{
+    text-decoration:underline !important;
+}
+
+
+.content2H3{
+    font-size:40px;
+    font-weight:300;
+
+}
+
+
+.borderradius{
+  border-radius: 25px;
+  border: 1px solid #5181e9;
+  padding: 20px;
+}
+
+.colFloat{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footerWrap{
+    background-color:#f4f5f6;
+}
+
+
+.footer_nav a{
+    color: #606162;
+    padding: 10px;
+    text-decoration:none;
+}
+
+
+.footer_nav a:hover{
+    color: #606162;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+
+.social-icons i {
+    color: #979797;
+    font-size: 20px;
+    margin: 10px;
+    float: left;
+}
+
+.social-icons i:hover {
+    color: #1294fd;
+    font-size: 20px;
+    margin: 10px;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.d-flex {
+    display: flex !important;
+}
